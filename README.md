@@ -35,7 +35,6 @@ A lightweight, multi-user chat platform built with **WPF (C#)** using the **TCP/
 * **Server:** Click **Start Server** first.
 * **Client:** Enter a nickname and IP address (use `127.0.0.1` for local testing), then click **Connect**.
 
-
 ## System Architecture
 
 The application operates on a **Star Topology**:
@@ -47,3 +46,9 @@ The application operates on a **Star Topology**:
 
 * **LAN Connection:** To chat across different computers, ensure Port **8888** (or your chosen port) is allowed through the Windows Firewall on the Server machine.
 * **Loopback:** For testing on a single machine, use the loopback address `127.0.0.1`.
+
+## Demo
+
+<p align="center">
+  <img src="./DemoImage.png" alt="WPF Chat Application Demo" width="80%"/>
+</p>
