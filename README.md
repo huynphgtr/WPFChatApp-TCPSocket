@@ -48,7 +48,4 @@ The application operates on a **Star Topology**:
 * **Loopback:** For testing on a single machine, use the loopback address `127.0.0.1`.
 
 ## Demo
-
-<p align="center">
-  <img src="./DemoImage.png" alt="WPF Chat Application Demo" width="80%"/>
-</p>
+<img width="1920" height="1080" alt="DemoImage" src="https://github.com/user-attachments/assets/0e84a3ee-f868-47b5-b813-c76484174122" />
