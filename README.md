@@ -26,12 +26,23 @@ A lightweight, multi-user chat platform built with **WPF (C#)** using the **TCP/
 
 ### 2. Running the Project
 
-1. **Open Solution:** Launch `WpfChatApp.sln`.
-2. **Configure Startup:**
+Follow these steps to get a local copy of the project up and running.
+
+1. Clone the Repository
+Open your terminal or Git Bash and run:
+
+```
+git clone https://github.com/huynphgtr/WPFChatApp-TCPSocket
+cd WPFChatApp
+
+```
+
+2. **Open Solution:** Launch `WpfChatApp.sln`.
+3. **Configure Startup:**
 * Right-click the Solution -> **Set Startup Projects...**
 * Select **Multiple startup projects**.
 * Set the Action for both `ChatServer` and `ChatClient` to **Start**.
-3. **Application Flow:**
+4. **Application Flow:**
 * **Server:** Click **Start Server** first.
 * **Client:** Enter a nickname and IP address (use `127.0.0.1` for local testing), then click **Connect**.
 
